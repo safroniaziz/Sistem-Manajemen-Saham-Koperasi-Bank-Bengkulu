@@ -33,4 +33,9 @@ class PasanganOrangTuaInvestor extends Model
         'sumber_penghasilan_utama_pasangan',
 
     ];
+
+    public function investor()
+    {
+        return $this->belongsTo(investor::class, 'investor_id');
+    }
 }
