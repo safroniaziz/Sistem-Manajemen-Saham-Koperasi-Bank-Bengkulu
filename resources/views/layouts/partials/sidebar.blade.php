@@ -12,6 +12,20 @@
     </a>
 </li>
 
+<li class="{{ set_active('pejabatBerwenang') }}">
+    <a href="{{ route('pejabatBerwenang') }}">
+        <i class="fa fa-users"></i>
+        <span>Pejabat Berwenang</span>
+    </a>
+</li>
+
+<li class="{{ set_active('agenPemasaran') }}">
+    <a href="{{ route('agenPemasaran') }}">
+        <i class="fa fa-users"></i>
+        <span>Agen Pemasaran</span>
+    </a>
+</li>
+
 <li>
     <a class="dropdown-item" href="{{ route('logout') }}"
         onclick="event.preventDefault();
