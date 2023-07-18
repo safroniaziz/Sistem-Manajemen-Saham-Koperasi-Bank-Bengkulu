@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SIPEDE MAS | @yield('subTitle')</title>
+    <title>Koperasi Bank Bengkulu | @yield('subTitle')</title>
     <link rel="icon" href="{{ asset('assets/img/logo.svg') }}">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -23,7 +23,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><i class="fa fa-home"></i></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg" style="font-size:16px;"><b>SIPEDEMAS</b> </span>
+          <span class="logo-lg" style="font-size:16px;"><b>Koperasi Bank Bengkulu</b> </span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -71,11 +71,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Pengaduan dan Aspirasi Masyarakat
-            <small>Kabupaten Kepahiang</small>
+            Manajemen Saham Koperasi
+            <small>Bank Bengkulu</small>
           </h1>
           <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-home"></i>SIPEDE MAS</a></li>
+            <li><a href="#"><i class="fa fa-home"></i>Koperasi Bank Bengkulu</a></li>
             <li><a href="#">@yield('page')</a></li>
             <li class="active">@yield('subPage')</li>
           </ol>
@@ -91,9 +91,9 @@
 
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>SIPEDEMAS DPRD Kepahiang</b>
+          <b>Koperasi Bank Bengkulu</b>
         </div>
-        <strong>Copyright &copy; 2023 <a href="https://sipedemas.kepahiang.go.id/">SIPEDEMAS</a>.</strong> DPRD Kepahiang
+        <strong>Copyright &copy; 2023 <a href="https://www.bankbengkulu.co.id/">Bank Bengkulu</a>.</strong> Kota BEngkulu
         reserved.
       </footer>
 

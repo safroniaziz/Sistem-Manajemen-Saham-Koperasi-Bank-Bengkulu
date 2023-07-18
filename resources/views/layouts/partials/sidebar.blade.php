@@ -5,6 +5,13 @@
     </a>
 </li>
 
+<li class="{{ set_active('user') }}">
+    <a href="{{ route('user') }}">
+        <i class="fa fa-users"></i>
+        <span>Manajemen User</span>
+    </a>
+</li>
+
 <li>
     <a class="dropdown-item" href="{{ route('logout') }}"
         onclick="event.preventDefault();
