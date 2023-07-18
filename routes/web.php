@@ -63,4 +63,13 @@ Route::middleware('auth')->group(function(){
         Route::patch('/investor/update', 'update')->name('investor.update');
         Route::delete('/investor/{investor}/delete', 'delete')->name('investor.delete');
     });
+
+    Route::controller(IdentitasInvestorController::class)->group(function () {
+        Route::get('/identitas_investor', 'index')->name('identitasInvestor');
+        Route::get('/identitas_investor/create', 'create')->name('identitasInvestor.create');
+        Route::post('/identitas_investor', 'store')->name('identitasInvestor.store');
+        Route::get('/identitas_investor/{investor}/edit', 'edit')->name('identitasInvestor.edit');
+        Route::patch('/identitas_investor/update', 'update')->name('identitasInvestor.update');
+        Route::delete('/identitas_investor/{investor}/delete', 'delete')->name('identitasInvestor.delete');
+    });
 });

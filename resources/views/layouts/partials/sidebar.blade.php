@@ -33,6 +33,13 @@
     </a>
 </li>
 
+<li class="{{ set_active('identitasInvestor') }}">
+    <a href="{{ route('identitasInvestor') }}">
+        <i class="fa fa-users"></i>
+        <span>Data Identitas Investor</span>
+    </a>
+</li>
+
 <li>
     <a class="dropdown-item" href="{{ route('logout') }}"
         onclick="event.preventDefault();
