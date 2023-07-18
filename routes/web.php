@@ -4,6 +4,7 @@ use App\Http\Controllers\AgenPemasaranController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardCOntroller;
+use App\Http\Controllers\InvestorController;
 use App\Http\Controllers\PejabatBerwenangController;
 use App\Http\Controllers\UserController;
 
@@ -52,5 +53,14 @@ Route::middleware('auth')->group(function(){
         Route::get('/agen_pemasaran/{agenPemasaran}/edit', 'edit')->name('agenPemasaran.edit');
         Route::patch('/agen_pemasaran/update', 'update')->name('agenPemasaran.update');
         Route::delete('/agen_pemasaran/{agenPemasaran}/delete', 'delete')->name('agenPemasaran.delete');
+    });
+
+    Route::controller(InvestorController::class)->group(function () {
+        Route::get('/investor', 'index')->name('investor');
+        Route::get('/investor/create', 'create')->name('investor.create');
+        Route::post('/investor', 'store')->name('investor.store');
+        Route::get('/investor/{investor}/edit', 'edit')->name('investor.edit');
+        Route::patch('/investor/update', 'update')->name('investor.update');
+        Route::delete('/investor/{investor}/delete', 'delete')->name('investor.delete');
     });
 });
