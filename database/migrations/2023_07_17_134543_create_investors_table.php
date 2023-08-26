@@ -20,12 +20,14 @@ return new class extends Migration
             $table->enum('status_perkawinan',['menikah','belum_menikah','janda/dudu']);
             $table->enum('kewarganegaraan',['wni','wna']);
             $table->enum('jenis_rekening',['perorangan','nonperorangan']);
-            $table->string('profil_resiko_nasaba');
+            $table->string('profil_resiko_nasabah');
             $table->string('jenis_kelamin');
             $table->string('nomor_ktp');
             $table->date('tanggal_kadaluarsa_ktp');
             $table->integer('nomor_npwp');
             $table->date('tanggal_registrasi_npwp');
+            $table->string('nama_ahli_waris');
+            $table->string('hubungan_ahli_waris');
             $table->boolean('is_verified')->default(1);
             $table->timestamps();
             $table->softDeletes();

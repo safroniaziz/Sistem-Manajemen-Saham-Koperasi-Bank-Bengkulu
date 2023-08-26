@@ -3,8 +3,7 @@
 @section('page','Data Identitas Investor')
 @section('subPage','Semua Data')
 @section('user-login')
-    {{ Auth::user()->nama_lengkap }}
-@endsection
+    {{ Auth::user()->name }}@endsection
 @section('content')
 <div class="row">
     <div class="col-md-12">

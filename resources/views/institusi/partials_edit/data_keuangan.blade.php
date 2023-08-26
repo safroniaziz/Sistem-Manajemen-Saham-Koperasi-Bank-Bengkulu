@@ -1,0 +1,95 @@
+<div class="form-group col-md-6">
+    <label for="">Aset Keuangan Tahun 1: <a style="color:red">(*)</a></label> <br>
+    <select name="aset_keuangan_tahun_1" id="aset_keuangan_tahun_1" class="form-control" >
+        <option value="" disabled selected>-- pilih aset keuangan --</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_1 == "<_idr_1_m" ? 'selected' : ''}} value="<_idr_1_m">< IDR 1 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_1 == "idr_1_5_m" ? 'selected' : ''}} value="idr_1_5_m">IDR 1 - 5 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_1 == ">_idr_5_10_m" ? 'selected' : ''}} value=">_idr_5_10_m">> IDR 5 - 10 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_1 == ">_idr_10_50_m" ? 'selected' : ''}} value=">_idr_10_50_m">> IDR 10 - 50 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_1 == ">_idr_50_m" ? 'selected' : ''}} value=">_idr_50_m">> IDR 50 Miliar</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Aset Keuangan Tahun 2: <a style="color:red">(*)</a></label> <br>
+    <select name="aset_keuangan_tahun_2" id="aset_keuangan_tahun_2" class="form-control" >
+        <option value="" disabled selected>-- pilih aset keuangan --</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_2 == "<_idr_1_m" ? 'selected' : ''}} value="<_idr_1_m">< IDR 1 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_2 == "idr_1_5_m" ? 'selected' : ''}} value="idr_1_5_m">IDR 1 - 5 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_2 == ">_idr_5_10_m" ? 'selected' : ''}} value=">_idr_5_10_m">> IDR 5 - 10 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_2 == ">_idr_10_50_m" ? 'selected' : ''}} value=">_idr_10_50_m">> IDR 10 - 50 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_2 == ">_idr_50_m" ? 'selected' : ''}} value=">_idr_50_m">> IDR 50 Miliar</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Aset Keuangan Tahun 3: <a style="color:red">(*)</a></label> <br>
+    <select name="aset_keuangan_tahun_3" id="aset_keuangan_tahun_3" class="form-control" >
+        <option value="" disabled selected>-- pilih aset keuangan --</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_3 == "<_idr_1_m" ? 'selected' : ''}} value="<_idr_1_m">< IDR 1 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_3 == "idr_1_5_m" ? 'selected' : ''}} value="idr_1_5_m">IDR 1 - 5 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_3 == ">_idr_5_10_m" ? 'selected' : ''}} value=">_idr_5_10_m">> IDR 5 - 10 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_3 == ">_idr_10_50_m" ? 'selected' : ''}} value=">_idr_10_50_m">> IDR 10 - 50 Miliar</option>
+        <option {{ $institusi->dataKeuangan->aset_keuangan_tahun_3 == ">_idr_50_m" ? 'selected' : ''}} value=">_idr_50_m">> IDR 50 Miliar</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Laba Keuangan Tahun 1: <a style="color:red">(*)</a></label> <br>
+    <select name="laba_keuangan_tahun_1" id="laba_keuangan_tahun_1" class="form-control" >
+        <option value="" disabled selected>-- pilih laba keuangan --</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_1 == "<_idr_1_m" ? 'selected' : ''}} value="<_idr_1_m">< IDR 1 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_1 == "idr_1_5_m" ? 'selected' : ''}} value="idr_1_5_m">IDR 1 - 5 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_1 == ">_idr_5_10_m" ? 'selected' : ''}} value=">_idr_5_10_m">> IDR 5 - 10 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_1 == ">_idr_10_50_m" ? 'selected' : ''}} value=">_idr_10_50_m">> IDR 10 - 50 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_1 == ">_idr_50_m" ? 'selected' : ''}} value=">_idr_50_m">> IDR 50 Miliar</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Laba Keuangan Tahun 2: <a style="color:red">(*)</a></label> <br>
+    <select name="laba_keuangan_tahun_2" id="laba_keuangan_tahun_2" class="form-control" >
+        <option value="" disabled selected>-- pilih laba keuangan --</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_2 == "<_idr_1_m" ? 'selected' : ''}} value="<_idr_1_m">< IDR 1 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_2 == "idr_1_5_m" ? 'selected' : ''}} value="idr_1_5_m">IDR 1 - 5 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_2 == ">_idr_5_10_m" ? 'selected' : ''}} value=">_idr_5_10_m">> IDR 5 - 10 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_2 == ">_idr_10_50_m" ? 'selected' : ''}} value=">_idr_10_50_m">> IDR 10 - 50 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_2 == ">_idr_50_m" ? 'selected' : ''}} value=">_idr_50_m">> IDR 50 Miliar</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Laba Keuangan Tahun 3: <a style="color:red">(*)</a></label> <br>
+    <select name="laba_keuangan_tahun_3" id="laba_keuangan_tahun_3" class="form-control" >
+        <option value="" disabled selected>-- pilih laba keuangan --</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_3 == "<_idr_1_m" ? 'selected' : ''}} value="<_idr_1_m">< IDR 1 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_3 == "idr_1_5_m" ? 'selected' : ''}} value="idr_1_5_m">IDR 1 - 5 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_3 == ">_idr_5_10_m" ? 'selected' : ''}} value=">_idr_5_10_m">> IDR 5 - 10 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_3 == ">_idr_10_50_m" ? 'selected' : ''}} value=">_idr_10_50_m">> IDR 10 - 50 Miliar</option>
+        <option {{ $institusi->dataKeuangan->laba_keuangan_tahun_3 == ">_idr_50_m" ? 'selected' : ''}} value=">_idr_50_m">> IDR 50 Miliar</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Sumber Dana: <a style="color:red">(*)</a></label> <br>
+    <select name="sumber_dana" id="sumber_dana" class="form-control" >
+        <option value="" disabled selected>-- pilih sumber dana --</option>
+        <option {{ $institusi->dataKeuangan->sumber_dana == "hasil_usaha" ? 'selected' : '' }} value="hasil_usaha">Hasil Usaha</option>
+        <option {{ $institusi->dataKeuangan->sumber_dana == "dana_pensiun" ? 'selected' : '' }} value="dana_pensiun">Dana Pensiun</option>
+        <option {{ $institusi->dataKeuangan->sumber_dana == "bunga_simpanan" ? 'selected' : '' }} value="bunga_simpanan">Bunga Simpanan</option>
+        <option {{ $institusi->dataKeuangan->sumber_dana == "hasil_investasi" ? 'selected' : '' }} value="hasil_investasi">Hasil Investasi</option>
+        <option {{ $institusi->dataKeuangan->sumber_dana == "lainnya" ? 'selected' : '' }} value="lainnya"> Lainnya</option>
+    </select>
+</div>
+
+<div class="form-group col-md-6">
+    <label for="">Tujuan Investasi: <a style="color:red">(*)</a></label> <br>
+    <select name="tujuan_investasi" id="tujuan_investasi" class="form-control" >
+        <option value="" disabled selected>-- pilih tujuan investasi --</option>
+        <option {{ $institusi->dataKeuangan->tujuan_investasi == "kenaikan_harga" ? 'selected' : '' }} value="kenaikan_harga">Mendapatkan Kenaikan Harga</option>
+        <option {{ $institusi->dataKeuangan->tujuan_investasi == "investasi" ? 'selected' : '' }} value="investasi">Investasi</option>
+        <option {{ $institusi->dataKeuangan->tujuan_investasi == "spekulasi" ? 'selected' : '' }} value="spekulasi">Spekulasi</option>
+        <option {{ $institusi->dataKeuangan->tujuan_investasi == "penghasilan" ? 'selected' : '' }} value="penghasilan">Mendapatkan Penghasilan</option>
+        <option {{ $institusi->dataKeuangan->tujuan_investasi == "lainnya" ? 'selected' : '' }} value="lainnya"> Lainnya</option>
+    </select>
+</div>

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('investor_id');
             $table->boolean('ktp');
             $table->boolean('npwp');
-            $table->boolean('from_profil_resiko_pemodal');
+            $table->boolean('form_profil_resiko_pemodal');
             $table->boolean('bukti_setoran_investasi_awal');
             $table->boolean('contoh_tanda_tangan');
             $table->boolean('formulir_fatca')->nullable();

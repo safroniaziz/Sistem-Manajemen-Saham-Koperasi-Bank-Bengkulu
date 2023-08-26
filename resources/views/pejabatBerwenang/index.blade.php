@@ -3,7 +3,7 @@
 @section('page','Data Pejabat Berwenang')
 @section('subPage','Semua Data')
 @section('user-login')
-    {{ Auth::user()->nama_lengkap }}
+    {{ Auth::user()->name }}
 @endsection
 @section('content')
 <div class="row">

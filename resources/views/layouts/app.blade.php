@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Koperasi Bank Bengkulu | @yield('subTitle')</title>
-    <link rel="icon" href="{{ asset('assets/img/logo.svg') }}">
+    <link rel="icon" href="{{ asset('assets/img/logo_koperasi.svg') }}">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     @include('layouts.partials.assets.css')
@@ -48,7 +48,7 @@
           <!-- Sidebar user panel -->
           <div class="user-panel" style="padding: 14px 10px !important;">
             <div class="pull-left image">
-              <img src="{{ asset('assets/img/logo.svg') }}" alt="User Image">
+              <img src="{{ asset('assets/img/logo_koperasi.svg') }}" alt="User Image">
             </div>
             <div class="pull-left info" style="padding: 7px 5px 5px 15px;">
               <p>Selamat Datang,</p>

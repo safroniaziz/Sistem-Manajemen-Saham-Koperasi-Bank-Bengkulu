@@ -18,7 +18,7 @@ class PasanganOrangTuaInvestor extends Model
         'telepon_rumah_pasangan',
         'ponsel_pasangan',
         'pekerjaan_pasangan',
-        'perusaan_pasangan',
+        'perusahaan_pasangan',
         'jabatan_pasangan',
         'alamat_perusahan_pasangan',
         'kota_perusahan_pasangan',

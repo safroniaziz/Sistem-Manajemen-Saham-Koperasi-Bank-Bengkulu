@@ -3,7 +3,7 @@
 @section('page','Data Investor')
 @section('subPage','Semua Data')
 @section('user-login')
-    {{-- {{ Auth::user()->nama_lengkap }} --}}
+     {{ Auth::user()->name}}
 @endsection
 @section('content')
     <div class="row">
@@ -55,7 +55,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="">Profil Resiko Nasaba</label>
-                                <input type="text" name="profil_resiko_nasaba" class="form-control">
+                                <input type="text" name="profil_resiko_nasabah" class="form-control">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="">Jenis Kelamin</label>

@@ -28,9 +28,9 @@
                             <!-- small box -->
                             <div class="small-box bg-aqua" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahPejabat }}</h3>
 
-                                <p>Berita & Pengumuman</p>
+                                <p>Pejabat Berwenang</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-bullhorn"></i>
@@ -41,9 +41,9 @@
                             <!-- small box -->
                             <div class="small-box bg-red" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahAgen }}</h3>
 
-                                <p>Daerah Pemilihan</p>
+                                <p>Agen Pemasaran</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-map-marker-alt"></i>
@@ -54,9 +54,9 @@
                             <!-- small box -->
                             <div class="small-box bg-yellow" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahOperator }}</h3>
 
-                                <p>Organisasi Perangkat Daerah</p>
+                                <p>Operator</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-building"></i>
@@ -67,9 +67,9 @@
                             <!-- small box -->
                             <div class="small-box bg-green" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahInvestor }}</h3>
 
-                                <p>Satuan Volume</p>
+                                <p>Investor</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-balance-scale"></i>
@@ -82,9 +82,9 @@
                             <!-- small box -->
                             <div class="small-box bg-aqua" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahSahamInvestor }}</h3>
 
-                                <p>Dokumen Reses</p>
+                                <p>Saham Investor</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-file-pdf"></i>
@@ -95,9 +95,9 @@
                             <!-- small box -->
                             <div class="small-box bg-red" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahInstitusi }}</h3>
 
-                                <p>Kategori Pengaduan</p>
+                                <p>Institusi</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-tasks"></i>
@@ -108,9 +108,9 @@
                             <!-- small box -->
                             <div class="small-box bg-yellow" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahSahamInstitusi }}</h3>
 
-                                <p>Pengaduan Masyarat</p>
+                                <p>Saham Institusi</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-envelope"></i>
@@ -121,9 +121,9 @@
                             <!-- small box -->
                             <div class="small-box bg-green" style="margin-bottom:0px;">
                                 <div class="inner">
-                                <h3></h3>
+                                <h3>{{ $jumlahInvestor + $jumlahInstitusi }}</h3>
 
-                                <p>Aspirasi Masyarakat</p>
+                                <p>Jumlah Seluruh Investor</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fa fa-pen"></i>

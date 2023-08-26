@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('investor_id');
             $table->string('nama_pekerjaan');
-            $table->string('nama_perusahaan');
-            $table->enum('jabatan',['komisaris','direksi','manajer','staf','pemilik','pengawas','lainnya']);
-            $table->string('alamat_perusahaan');
+            $table->string('nama_perusahaan')->nullable();
+            $table->enum('jabatan',['komisaris','direksi','manajer','staf','pemilik','pengawas','lainnya'])->nullable();
+            $table->string('alamat_perusahaan')->nullable();
             $table->string('kota_perusahaan')->nullable();
             $table->string('provinsi_perusahaan')->nullable();
             $table->string('kode_pos_perusahaan')->nullable();
@@ -26,7 +26,7 @@ return new class extends Migration
             $table->string('fax_perusahaan')->nullable();
             $table->string('jenis_usaha')->nullable();
             $table->string('lama_bekerja')->nullable();
-            $table->enum('sumber_penghasilan_utama',['gaji','hasil_usaha','warisan','dari_orang_tua/anak','hibah','dari_suami/istri','hasil_investasi','lainnya']);
+            $table->enum('sumber_penghasilan_utama',['gaji','hasil_usaha','warisan','dari_orang_tua/anak','hibah','dari_suami/istri','hasil_investasi','lainnya'])->nullable();
             $table->string('penghasilan_lainnya')->nullable();
             $table->enum('sumber_penghasilan_lainnya',['gaji','hasil_usaha','warisan','dari_orang_tua/anak','hibah','dari_suami/istri','hasil_investasi','lainnya']);
             $table->enum('sumber_dana_investasi',['gaji','hasil_usaha','warisan','dari_orang_tua/anak','hibah','dari_suami/istri','hasil_investasi','lainnya']);

@@ -20,8 +20,8 @@ return new class extends Migration
             $table->string('telepon_rumah_pasangan');
             $table->string('ponsel_pasangan');
             $table->string('pekerjaan_pasangan');
-            $table->string('perusaan_pasangan')->nullable();
-            $table->enum('jabatan_pasangan',['komisaris','direksi','manajer','staf','pemilik','pengawas','lainnya']);
+            $table->string('perusahaan_pasangan')->nullable();
+            $table->enum('jabatan_pasangan',['komisaris','direksi','manajer','staf','pemilik','pengawas','lainnya'])->nullable();
             $table->string('alamat_perusahan_pasangan')->nullable();
             $table->string('kota_perusahan_pasangan')->nullable();
             $table->string('provinsi_perusahaan_pasangan')->nullable();
@@ -31,7 +31,7 @@ return new class extends Migration
             $table->string('fax_perusahaan_pasangan')->nullable();
             $table->string('jenis_usaha_pasangan')->nullable();
             $table->string('lama_bekerja_pasangan')->nullable();
-            $table->string('penghasilan_kotor_per_tahun-pasangan')->nullable();
+            $table->string('penghasilan_kotor_per_tahun_pasangan')->nullable();
             $table->enum('sumber_penghasilan_utama_pasangan',['gaji','hasil_usaha','warisan','dari_orang_tua/anak','hibah','dari_suami/istri','hasil_investasi','lainnya']);
             $table->timestamps();
             $table->softDeletes();

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('investor_id');
             $table->string('alamat_ktp');
             $table->string('rt_ktp');
-            $table->string('rw-ktp');
+            $table->string('rw_ktp');
             $table->string('kelurahan_ktp');
             $table->string('kecamatan_ktp');
             $table->string('kota_ktp');

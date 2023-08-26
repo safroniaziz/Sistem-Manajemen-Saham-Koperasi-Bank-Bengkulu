@@ -10,6 +10,10 @@ class SahamInvestor extends Model
 {
     use HasFactory, SoftDeletes;
 
+    protected $casts = [
+        // 'tanggal_ditetapkan' => 'date',
+    ];
+
     protected $fillable = [
         'investor_id',
         'nomor_sk3s',
