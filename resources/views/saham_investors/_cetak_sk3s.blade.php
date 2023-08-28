@@ -44,6 +44,39 @@
 
     <table style="width:100%">
         <tr>
+            <td style="width:56%"></td>
+            <td align="left">Ditetapkan : {{ $tanggalDitetapkan->isoFormat('DD MMMM YYYY') }} <br>
+                Perubahan Ke- {{ $sahamInvestor->perubahan_ke }}
+            </td>
+            {{-- <td style="text-align:left" >Ditetapkan : {{ $time_indo }} <br>
+                Perubahan Ke- {{ $sk3s[0]->perubahan_ke }}</td> --}}
+        </tr>
+        <tr>
+            <td style="width:56%;  font-size: 10pt;" align="center">
+                Saham Seri B <br>
+                <span style="text-align:left !important">No. SK3S: {{ $sahamInvestor->nomor_sk3s }}</span> <br>
+                <span style="background-color:#2a2a28; color:white; padding:1px;">APPROVAL OF AUTHENTICITY</span>
+                <br><br>
+            </td>
+            <td align="center" rowspan="2">
+                <p style="font-size: 12pt;">Ketua Koperasi</p>
+                <br>
+                <h3 style="font-size: 12pt">
+                    @if ($ketua != "")
+                        {{ $ketua->nama_ketua_koperasi }}
+                        @else
+                            <a style="color:red"><i>tidak ada ketua koperasi aktif</i></a>
+                    @endif
+                </h3>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center; width:40%; font-size: 9pt;"><hr width="140px" style="margin-bottom:-120px; color:black"> <br ><b>Board Of Director</b></td>
+        </tr>
+    </table>
+
+    {{-- <table style="width:100%">
+        <tr>
             <td rowspan="5" align="left" width="230"><a style="margin-left:50px" width="120"></td>
             <td align="left">Ditetapkan : {{ $tanggalDitetapkan->isoFormat('DD MMMM YYYY') }} <br>
                 Perubahan Ke- {{ $sahamInvestor->perubahan_ke }}
@@ -62,6 +95,6 @@
                 </h3>
             </td>
         </tr>
-    </table>
+    </table> --}}
 </body>
 </html>
