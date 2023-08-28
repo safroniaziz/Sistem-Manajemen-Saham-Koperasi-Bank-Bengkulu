@@ -51,7 +51,7 @@
                             @foreach($sahamInvestors as $index => $saham)
                                 <tr>
                                     <td> {{ $startIndex + $index + 1 }} </td>
-                                    <td> {{ $saham->investor->nama_investor }} </td>
+                                    <td> {{ $saham->investor ? $saham->investor->nama_investor : '' }} </td>
                                     <td> {{ number_format($saham->jumlah_saham) }} </td>
                                     <td> {{ $saham->jumlah_lembar }} Lembar </td>
                                     <td>

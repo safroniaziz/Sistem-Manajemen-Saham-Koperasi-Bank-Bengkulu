@@ -34,8 +34,8 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Nomor Register</th>
                                 <th>Nama Investor</th>
+                                <th>Nomor Register</th>
                                 <th>Nama Ahli Waris</th>
                                 <th>No. KTP</th>
                                 <th>Terdaftar</th>
