@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('jenis_kelamin');
             $table->string('nomor_ktp');
             $table->date('tanggal_kadaluarsa_ktp');
-            $table->integer('nomor_npwp');
+            $table->string('nomor_npwp');
             $table->date('tanggal_registrasi_npwp');
             $table->string('nama_ahli_waris');
             $table->string('hubungan_ahli_waris');
