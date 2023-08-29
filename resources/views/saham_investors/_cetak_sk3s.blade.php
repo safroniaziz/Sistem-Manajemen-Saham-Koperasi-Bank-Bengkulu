@@ -39,7 +39,7 @@
 
     <div align="center" style="margin:25 0 40 0;">
         <h3 style="font-family:Arial, Helvetica, sans-serif; text-transform:uppercase;"><b><u>{{ $sahamInvestor->investor->nama_investor }}</u></b></h3>
-        <p style="font-family:Arial, Helvetica, sans-serif">Register : {{ $sahamInvestor->investor->nomor_register }}</p>
+        <p style="font-family:Arial, Helvetica, sans-serif">Register : 0{{ $sahamInvestor->investor->nomor_register }}</p>
     </div>
 
     <table style="width:100%">
