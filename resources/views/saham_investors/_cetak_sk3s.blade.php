@@ -45,7 +45,7 @@
     <table style="width:100%">
         <tr>
             <td style="width:56%"></td>
-            <td align="left">Ditetapkan : {{ $tanggalDitetapkan->isoFormat('DD MMMM YYYY') }} <br>
+            <td align="left">Ditetapkan : {{ $tanggalDitetapkan->isoFormat('dddd, DD MMMM YYYY') }} <br>
                 Perubahan Ke- {{ $sahamInvestor->perubahan_ke }}
             </td>
             {{-- <td style="text-align:left" >Ditetapkan : {{ $time_indo }} <br>
